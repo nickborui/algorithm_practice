@@ -104,7 +104,7 @@ public:
         if (index == size - 1) {
             tail = curNode;
         }
-        size--;
+        size--; // Decrement the size after moving the tail pointer!!!
     }
 };
 
